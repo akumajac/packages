@@ -5,11 +5,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=hysteria
-PKG_VERSION:=1.3.4
+PKG_VERSION:=2.2.3
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/apernet/hysteria/tar.gz/v$(PKG_VERSION)?
+PKG_SOURCE_URL:=https://sources.immortalwrt.org/hysteria-2.2.3.tar.gz
 PKG_HASH:=13862594252dcea83d791b0cf8234874154ba623f22d94cef685561a710717c1
 
 PKG_LICENSE:=MIT
