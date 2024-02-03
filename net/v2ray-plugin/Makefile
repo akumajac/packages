@@ -6,13 +6,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=v2ray-plugin
-PKG_VERSION:=5.5.0
+PKG_VERSION:=5.9.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/teddysun/v2ray-plugin/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=b1d7560d07e16123460a031f3e19cd8af7192a199f6428c1efc690d72ef8d2f5
-
+PKG_SOURCE_URL:=https://sources.immortalwrt.org/v2ray-plugin-5.9.0.tar.gz
+PKG_HASH:=5a155dbe976bccee225e171ae71af6f19d32caca16194ef68b4aee81e57f8f0f
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=LICENSE
 PKG_MAINTAINER:=madeye <max.c.lv@gmail.com>
