@@ -26,7 +26,7 @@ define Package/UnblockNeteaseMusic
   SECTION:=multimedia
   CATEGORY:=Multimedia
   TITLE:=Revive Netease Cloud Music (NodeJS)
-  URL:=https://github.com/nondanee/UnblockNeteaseMusic
+  URL:=https://github.com/nondanee/UnblockNeteaseMusic/releases
   DEPENDS:=+node
   PKGARCH:=all
 endef
