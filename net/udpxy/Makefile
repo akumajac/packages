@@ -9,11 +9,11 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=udpxy
 PKG_VERSION:=1.0-25.1
-PKG_RELEASE:=1
+PKG_RELEASE:=$(AUTORELEASE)
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/pcherenkov/udpxy/tar.gz/$(PKG_VERSION)?
-PKG_HASH:=a1a16e60895c6b2fd151321db47f5d5373843116f1b98ed9749e6c25a6c44497
+PKG_SOURCE_URL:=https://codeload.github.com/haisongliang/udpxy/tar.gz/$(PKG_VERSION)?
+PKG_HASH:=db997610bcfc8f8af6383f45d06047558abe3e4b10301387cdb3ce69be798637
 
 PKG_MAINTAINER:=Álvaro Fernández Rojas <noltari@gmail.com>
 PKG_LICENSE:=GPL-3.0-or-later
@@ -30,7 +30,7 @@ define Package/udpxy
   SECTION:=net
   CATEGORY:=Network
   TITLE:=Convert UDP IPTV streams into HTTP streams
-  URL:=https://github.com/pcherenkov/udpxy
+  URL:=https://github.com/haisongliang/udpxy
 endef
 
 define Package/udpxy/description
